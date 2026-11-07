@@ -1,28 +1,28 @@
 class Ender < Formula
   desc "Minecraft instances, mods and servers from the command line"
   homepage "https://github.com/fatlard1993/ender-launcher"
-  version "0.2.3"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fatlard1993/ender-launcher/releases/download/v0.2.3/ender-darwin-arm64"
-      sha256 "8fa56d36a64a0f62b5bac7635b9e04ce5a769bdbf5d6e381c4e53bd52f05e086"
+      url "https://github.com/fatlard1993/ender-launcher/releases/download/v0.3.0/ender-darwin-arm64"
+      sha256 "f2f9bf8f3b8c79ab5e04b4e189e206515b84a00d6d5e54775f9007a6d0fa2134"
     end
     on_intel do
-      url "https://github.com/fatlard1993/ender-launcher/releases/download/v0.2.3/ender-darwin-x64"
-      sha256 "179af91bc444d0e8b2474bd26c9e633da9d06b76ae2cd181a861063b2e82378c"
+      url "https://github.com/fatlard1993/ender-launcher/releases/download/v0.3.0/ender-darwin-x64"
+      sha256 "3ccea22379a6df6f19b938088059eacd95494269810977300ce14c9f3c97b5f8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fatlard1993/ender-launcher/releases/download/v0.2.3/ender-linux-arm64"
-      sha256 "6eb60dc396cadeaf0b0c7c3ee2b3db65a2e1c44431f311f25c8750e1286483ab"
+      url "https://github.com/fatlard1993/ender-launcher/releases/download/v0.3.0/ender-linux-arm64"
+      sha256 "1db6ef2df96ecd1a633ab3843471dfb36ec6535093801117aac42ec463943bf2"
     end
     on_intel do
-      url "https://github.com/fatlard1993/ender-launcher/releases/download/v0.2.3/ender-linux-x64"
-      sha256 "0a461e1dca14f650905bcd286e4c6b0b454e237875688f2f42dbb5e602612571"
+      url "https://github.com/fatlard1993/ender-launcher/releases/download/v0.3.0/ender-linux-x64"
+      sha256 "310969c58242eea7317c87180159bafe0d6812b76af83da726b36937d72c51d9"
     end
   end
 
